@@ -1,0 +1,65 @@
+
+.label{
+    font-family: Lato;
+    color: #17abb3;
+    font-size: 25px;
+    
+
+}
+.left{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.letter .star{
+    font-size: 15px;
+}
+.star {
+    position: relative;
+    font-size: 16px;
+     margin: 5px 0;
+    color: black; 
+    margin-bottom: 10px;
+  
+}
+
+.stars { 
+    position: absolute;
+    right: 30px; 
+    top: 0;
+    color: #17abb3;
+    margin-right: 20px; 
+    font-size: 20px;
+}
+.letter{
+    position: relative;
+}
+.level{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    margin-right:20px;
+}
+.general .life{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:0;
+    margin: 0;
+}
+.list{
+    font-size: 16px;
+    list-style-type:square;
+
+}
+.general li::marker{
+    color: #17abb3;
+    font-size: 1.5em;
+}
+.life li::marker{
+    color: #17abb3;
+    font-size: 1.5em;
+}
+ul{
+    padding-left: 0;
+    margin-left: 20px;
+}

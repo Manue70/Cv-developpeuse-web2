@@ -1,0 +1,128 @@
+.profil{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 160px;
+}
+.info{
+    font-family: Lato;
+    color: #17abb3;
+    font-size: 25px;
+}
+.formations{ 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 730px;
+    height: 160px;
+    align-items: center;
+}
+.stage{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right:40px; 
+    margin-left: 40px;
+    width: 730px;
+    height: 100px;
+}
+.professional{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:40px;
+    margin-right: 40px;
+    width: 730px;
+    height: 160px;
+    
+}
+.profil{
+    max-width:730px;
+    width: 100%;
+}
+.profil p{
+    text-indent: 20px;
+    text-align: justify;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 20px;
+}
+.blue{
+    color: #17abb3;
+ }   
+.formations .line,
+.professional .line{
+  position: relative;
+  padding-left: 15px; 
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+.stage{
+  position: relative;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.formations .line::before,
+.professional .line::before,
+.stage::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+
+.formations .line:hover,
+.professional .line:hover,
+.stage:hover {
+  background-color: #f0f8ff; 
+}
+
+.formations .line:hover::before,
+.professional .line:hover::before,
+.stage:hover::before {
+  background-color: #17abb3; 
+}
+
+footer{
+    background-color: #17abb3;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.reseau{
+    display: flex;
+    
+    gap: 20px; 
+     justify-content: center;
+}
+.anim{
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+}
+.anim i {
+  transition: opacity 0.3s ease;
+}
+
+.anim i:hover {
+  opacity: 0.6; /* diminue légèrement l’opacité au survol */
+}
+.time{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    margin-bottom:5px ;
+}
+
+
+
+
